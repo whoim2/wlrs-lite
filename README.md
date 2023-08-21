@@ -10,6 +10,17 @@ RC control&amp;telemetry system
 Тайминг передачи каждого фрейма для LRS: 70мс без rx_silent и 32мс при rx_silent, для Sport режима 40 и 22мс.
 Каналы 1-4 передаются каждый фрейм, 5-8 каждый второй, 9-16 каждый четвертый.
 Частота выдачи SBUS на RX: 8мс.
+Некоторый набор данных mavlink парсится RX частью, передается по частям на TX и там восстанавливается. Набор данных можно расширить по запросу.
+```
+alt, relative_alt;
+vx, vy, vz;
+hdg;
+battery_remaining;
+current_battery, voltage_battery, cpu_load, drop_rate_comm;
+lat, lon, gps_alt;
+satellites_visible, fix_type;
+cog, vel;
+```
 
 Распиновка подключения модуля к плате:
 ```
