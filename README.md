@@ -34,8 +34,8 @@ RST_PIN   38
 DIO1_PIN  33
 RXEN_PIN  40
 TXEN_PIN  39
-GND   GND
-VBUS  VCC
+GND       GND
+VCC       VBUS
 ```
 Питание 5в подавать через разъем USB или пины VBUS/GND.
 
