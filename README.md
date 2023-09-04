@@ -75,4 +75,6 @@ RX модуль должен синхронизировать настройки
 
 Вопросы и пожелания в чатик: [https://t.me/savelylive](https://t.me/savelylive)
 
+![ex](https://github.com/whoim2/wlrs-lite/blob/main/Screenshot_2.png?raw=true)
+
 ![wm](https://github.com/whoim2/wlrs-lite/blob/main/wm.jpg?raw=true)
