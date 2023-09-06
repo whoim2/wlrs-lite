@@ -28,6 +28,7 @@ current_battery, voltage_battery, cpu_load, drop_rate_comm;
 lat, lon, gps_alt;
 satellites_visible, fix_type;
 cog, vel;
+rssi, base_mode, system_status;
 ```
 ### Подключение модуля
 Распиновка подключения радиомодуля к плате esp32s2:
